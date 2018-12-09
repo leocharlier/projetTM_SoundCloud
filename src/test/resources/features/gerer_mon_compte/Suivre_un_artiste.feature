@@ -10,6 +10,6 @@ Fonctionnalité: Suivre un artiste
     Alors il devrait se connecter
     
   Scénario: Suivre un artiste en tant qu'utilisateur
-    Soit un utilisateur sur la page d'accueil utilisateur
+    Soit un utilisateur sur son espace personnel
     Quand l'utilisateur suit un artiste
     Alors l'artiste devrait être suivi

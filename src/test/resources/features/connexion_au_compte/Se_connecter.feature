@@ -6,13 +6,13 @@ Fonctionnalité: Se connecter à son compte
 
   Scénario: Se connecter
     Soit un utilisateur sur la page d'accueil
-    Quand l'utilisateur se connecter
-    Et l'utilisateur saisit son identifiant "id"
+    Quand l'utilisateur se connecte
+    Et l'utilisateur saisit l'identifiant "id"
     Et l'utilisateur saisit son mot de passe "mdp"
     Alors il accède à son espace utilisateur
     
   Scénario: Saisir un mauvais identifiant
-    Soit un utilisateur sur la page de connexion
-    Quand l'utilisateur se connecter
+    Soit un utilisateur sur la page d'accueil
+    Quand l'utilisateur se connecte
     Et l'utilisateur saisit l'identifiant "qsdfqsd"
     Alors le message "Cette URL de profil n'existe pas" apparaît

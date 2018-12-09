@@ -5,7 +5,7 @@ Fonctionnalité: Modifier la langue
   Afin de comprendre le contenu du site
 
   Scénario: Modifier la langue via la page d'accueil
-    Soit un utilisateur sur la page d'accueil utilisateur
+    Soit un utilisateur sur son espace personnel
     Quand l'utilisateur modifie la langue
     Et l'utilisateur selectionne "English (US)"
     Alors le site devrait être en anglais

@@ -10,6 +10,6 @@ Fonctionnalité: Ajouter un titre en favori
     Alors il devrait se connecter
     
   Scénario: Ajouter un titre en favori en tant qu'utilisateur
-    Soit un utilisateur sur la page d'accueil utilisateur
+    Soit un utilisateur sur son espace personnel
     Quand l'utilisateur ajoute un titre en favori
     Alors le titre devrait être ajouter en favori
