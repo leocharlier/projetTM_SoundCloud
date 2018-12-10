@@ -5,14 +5,14 @@ Fonctionnalité: Modifier la langue
   Afin de comprendre le contenu du site
 
   Scénario: Modifier la langue via la page d'accueil
-    Soit un utilisateur sur son espace personnel
-    Quand l'utilisateur modifie la langue
+    Soit un utilisateur sur la page d'accueil
+    Quand l'utilisateur modifie la langue via la page d'accueil
     Et l'utilisateur selectionne "English (US)"
     Alors le site devrait être en anglais
     
   Scénario: Modifier la langue via les paramètres
     Soit un utilisateur sur la page d'accueil
     Quand l'utilisateur accède à ses paramètres
-    Et l'utilisateur modifie la langue
+    Et l'utilisateur modifie la langue via les paramètres
     Et l'utilisateur selectionne "English (US)"
     Alors le site devrait être en anglais

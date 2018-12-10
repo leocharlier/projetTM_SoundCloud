@@ -51,17 +51,41 @@ public class UtilisateurSteps {
     public void lance_chanson(String titre) {
         home.lancer_chanson(titre);
     }
-
-    @Step
-    public void doit_voir_la_definition(String definition) {
-        //assertThat(dictionnaire.rechuperer_definitions(), hasItem(containsString(definition)));
-    }
-
     
-
     @Step
-    public void recherche(String motCle) {
-        //saisit_mot(motCle);
-        //lance_la_recherche();
+    public void a_lance_musique_aleatoire() {
+    	assertTrue(home.verifier_chanson_aleatoire_lance());
     }
+    
+    @Step
+    public void saisit_recherche(String recherche) {
+        home.entrer_recherche(recherche);
+        home.lancer_recherche();
+    }
+    
+    @Step
+    public void filtre_artiste() {
+        home.filtrer_artiste();
+    }
+    
+    @Step
+    public void filtre_album() {
+        home.filtrer_album();
+    }
+    
+    @Step
+    public void modifie_langue() {
+        home.modifier_langue();
+    }
+    
+    @Step
+    public void choisit_langue(String langue) {
+        home.appliquer_langue(langue);
+    }
+    
+    @Step
+    public void voit_site_en_anglais() {
+        assertTrue(home.etre_en_anglais());
+    }
+
 }

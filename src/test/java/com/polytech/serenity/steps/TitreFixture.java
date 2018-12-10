@@ -18,7 +18,7 @@ public class TitreFixture {
 
     @Alors("^une musique devrait se lancer$")
     public void une_musique_devrait_se_lancer() throws Exception {
-    	
+    	utilisateur.a_lance_musique_aleatoire();
     }
 
     @Quand("^l'utilisateur lance le titre \"([^\"]*)\"$")
